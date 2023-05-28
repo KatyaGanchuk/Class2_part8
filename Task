@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+ int n;
+ 
+   cout << "Imput n ";
+   cin >> n;
+   
+   for (int i = -10; i <= 10; i++) {
+      if (i == 0) {  
+         continue;
+      }
+      
+      cout << n << " / " << i << " = " << (double)n/i << endl;
+   }	
+}
+    
